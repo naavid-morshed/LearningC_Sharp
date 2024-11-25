@@ -1,0 +1,15 @@
+1. $ is needed to print vars inside string
+   => Console.WriteLine($"Your name is: {name}");
+   
+2. Verbatim String Prefix @, using this will print single \ as \, \n will be \n
+   Console.WriteLine(@"your file is located at: c:\drive\file\dir\file.ext");
+
+3. ?? operator is a thing in c#, just like js
+
+4. type conversions are simpler than java, [ var a = (type) b ]
+   or use Convert class.
+   
+5. Convert.ToBoolean("str") will throw exception, but ide won't show error.
+   but this works for numbers and null
+   
+6.
