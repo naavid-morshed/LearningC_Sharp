@@ -32,4 +32,46 @@
     if single | or single & is used then condition will check all the conditions even if the previous conditions fail.
     (I do not see any reason to use single &, |. this opinion may be changed later)
     
-13. 
+13. basic switch case is like java
+
+14. numberSwitch
+    int number = 0;
+ 
+    string result = number switch
+         {
+             1 or 2 or 3 => $"The number is {number}",
+             4 => "The number is 4",
+             _ => "The number is something else" // default case
+         };
+         
+15. when clause in switch case, need to study this better. this example is not proper
+    var number = Convert.ToInt32(Console.ReadLine());
+
+    switch (number)
+    {
+        case var n when (n == 1 || n == 2 || n == 3):
+            Console.WriteLine("The number is 1, 2, or 3");
+            break;
+        case 4:
+            Console.WriteLine("The number is 4");
+            break;
+        default:
+            Console.WriteLine("The number is something else");
+            break;
+    }
+    
+16. tuples can be put into switch case
+    var value = (1, 2);
+    
+    switch (value)
+    {
+        case (1, 2) or (2, 1):
+            Console.WriteLine("Pair (1,2) or (2,1)");
+            break;
+        default:
+            Console.WriteLine("Other pair");
+            break;
+    }
+    
+17. 
+    

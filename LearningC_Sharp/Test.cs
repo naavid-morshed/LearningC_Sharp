@@ -18,7 +18,10 @@ public class Test
         // var conversion = new DataTypeConversion();
         // conversion.Dtc();
 
-        var tr = new ArrayTest();
-        tr.PrintArray();
+        // var tr = new ArrayTest();
+        // tr.PrintArray();
+
+        var sct = new SwitchCaseTest();
+        sct.Sct();
     }
 }
