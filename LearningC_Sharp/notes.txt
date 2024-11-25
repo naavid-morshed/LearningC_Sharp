@@ -28,4 +28,8 @@
     
 11. for loop, same as java. foreach uses "in" to tap into list/arr instead of ":" in java
 
-12. 
+12. AND and OR operator are &&, ||
+    if single | or single & is used then condition will check all the conditions even if the previous conditions fail.
+    (I do not see any reason to use single &, |. this opinion may be changed later)
+    
+13. 
