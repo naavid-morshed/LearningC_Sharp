@@ -19,4 +19,13 @@
    => will return true if the string can be converted and result will be that number, if failed 
       then will return false and result will be equal to 0;
 
-8. 
+8. using LearningC_Sharp.Problems; // is like import in java
+
+9. string.Join(", ", arr) [joins each two element with ", "]
+
+10. ForEach does not work on arrays, need to convert into list
+    _arr.ToList().ForEach(Console.Write);
+    
+11. for loop, same as java. foreach uses "in" to tap into list/arr instead of ":" in java
+
+12. 

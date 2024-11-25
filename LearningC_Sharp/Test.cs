@@ -1,4 +1,6 @@
-namespace LearningC_Sharp.Problems;
+using LearningC_Sharp.Problems; // is like import in java
+
+namespace LearningC_Sharp;
 
 public class Test
 {
@@ -13,7 +15,10 @@ public class Test
         //
         // Console.WriteLine(num ?? "null");
         
-        var conversion = new DataTypeConversion();
-        conversion.Dtc();
+        // var conversion = new DataTypeConversion();
+        // conversion.Dtc();
+
+        var tr = new ArrayTest();
+        tr.PrintArray();
     }
 }

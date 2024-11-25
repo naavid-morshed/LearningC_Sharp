@@ -9,7 +9,7 @@ public class DataTypeConversion
 
         float c = 500.56f;
         int d = (int)c;
-
+        // Console.WriteLine(Convert.ToString(1500));
         Console.WriteLine(int.TryParse("1500", out var result));
         Console.WriteLine(result);
     }
