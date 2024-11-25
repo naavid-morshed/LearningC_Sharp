@@ -12,4 +12,11 @@
 5. Convert.ToBoolean("str") will throw exception, but ide won't show error.
    but this works for numbers and null
    
-6.
+6. string str = "1500";
+   Convert.ToInt32(str); or int.Parse(str);
+
+7. int.TryParse("1500", out var result); 
+   => will return true if the string can be converted and result will be that number, if failed 
+      then will return false and result will be equal to 0;
+
+8. 
